@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ebebebfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: rgb(9, 176, 182);
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  #quoteDisplay {
+    font-size: 18px;
+    margin: 20px 0;
+    min-height: 80px;
+  }
+  
+  textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    resize: none;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #03a709;
+    color: rgb(84, 24, 180);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #liveWPM {
+    margin-top: 10px;
+    font-weight: bold;
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Typing Speed Test</h2>
+
+    <label for="difficulty">Select Difficulty:</label>
+    <select id="difficulty" onchange="loadQuote()">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <p id="quoteDisplay"></p>
+
+    <textarea id="input" placeholder="Start typing here..." rows="5"></textarea>
+    <p id="liveWPM">WPM: 0</p>
+
+    <button onclick="loadQuote()">Restart</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
